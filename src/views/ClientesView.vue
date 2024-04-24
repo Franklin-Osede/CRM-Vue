@@ -7,7 +7,7 @@
 
 <template>
     <div>
-      <h1>Clientes</h1>
+      <h class="text-6xl">Clientes</h>
     </div>
 </template>
 
