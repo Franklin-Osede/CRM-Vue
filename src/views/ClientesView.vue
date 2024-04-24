@@ -7,8 +7,9 @@
 
 <template>
     <div>
-      <h class="text-6xl">Clientes</h>
+      <h1 class="text-4xl font-extrabold text-slate-500">Clientes</h1>
     </div>
 </template>
 
 
+ 
