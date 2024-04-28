@@ -1,5 +1,5 @@
-<script>
-import {RouterLink} from 'vue-router'
+<script setup>
+import RouterLink from '../components/UI/RouterLink.vue'
 
 </script>
 
@@ -7,10 +7,12 @@ import {RouterLink} from 'vue-router'
 <template>
     <div>
       <div>
-        <RouterLink to="/agregar-cliente">
-          Agregar Cliente
-          </RouterLink>
+        <RouterLink to="agregar-cliente">
+        Agregar Cliente
+         </RouterLink>
+
       </div>
+      
       <h1 class="text-4xl font-extrabold text-slate-500">Clientes</h1>
     </div>
 </template>
