@@ -6,7 +6,7 @@ import RouterLink from '../components/UI/RouterLink.vue'
 
 <template>
     <div>
-      <div>
+      <div class="flex justify-end">
         <RouterLink to="agregar-cliente">
         Agregar Cliente
          </RouterLink>
