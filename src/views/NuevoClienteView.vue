@@ -21,6 +21,7 @@ defineProps ({
       <Heading> {{titulo}} </Heading>
 
       <div class="mx-auto mt-10 bg-white shadow">
+        <div class="mx-auto md:w-2/3 py-20 px-6">
         <FormKit
         type="form"
         >
@@ -30,9 +31,12 @@ defineProps ({
             placeholder="Nombre de Cliente"
             help= "Coloca el Nonbre del Cliente que deseas registrar"
             validation="required"
+            :validation-message="{required: 'El Nombre del Cliente es Obligatorio'}
+            "
              />
 
         </FormKit>
+        </div>
 
       </div>
     </div>
