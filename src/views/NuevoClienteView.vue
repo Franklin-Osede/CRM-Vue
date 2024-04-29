@@ -1,4 +1,5 @@
 <script setup>
+import {FormKit} from '@formkit/vue'
 import RouterLink from '../components/UI/RouterLink.vue'
 import Heading from '../components/UI/Heading.vue'
 
@@ -18,6 +19,22 @@ defineProps ({
           </RouterLink>
       </div>
       <Heading> {{titulo}} </Heading>
+
+      <div class="mx-auto mt-10 bg-white shadow">
+        <FormKit
+        type="form"
+        >
+        <FormKit
+            type="text"
+            label="Nombre"
+            placeholder="Nombre de Cliente"
+            help= "Coloca el Nonbre del Cliente que deseas registrar"
+            validation="required"
+             />
+
+        </FormKit>
+
+      </div>
     </div>
 </template>
 
