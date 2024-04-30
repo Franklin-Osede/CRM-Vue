@@ -1,4 +1,5 @@
 <script setup>
+
 import {FormKit} from '@formkit/vue'
 import RouterLink from '../components/UI/RouterLink.vue'
 import Heading from '../components/UI/Heading.vue'
@@ -8,6 +9,8 @@ defineProps ({
     type: String
   }
 })
+
+
 
 const handleSubmit = (data)=>{
 
@@ -31,6 +34,7 @@ const handleSubmit = (data)=>{
         submit-label="Agregar Cliente"
         incomplete-message="Nose pudo enviar, revisa todos los campos"
         @submit="handleSubmit"
+     
         >
         <FormKit
             type="text"
